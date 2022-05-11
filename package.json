@@ -1,6 +1,18 @@
 {
   "name": "stocks-charts",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Small app to display charts of your chosen stocks.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xx745/stocks-charts.git"
+  },
+  "keywords": [
+    "stocks",
+    "charts",
+    "vuejs"
+  ],
+  "author": "xx745",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +21,7 @@
     "lint:fix": "eslint --fix './**/*.js'"
   },
   "dependencies": {
+    "chartist": "^0.11.4",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",

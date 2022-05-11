@@ -2,8 +2,9 @@
 
 Small app to display charts of your chosen stocks.
 
-Node: v16.13.0
-NPM: 8.1.0
+Node: `v16.13.0`
+
+NPM: `8.1.0`
 
 ## Project setup
 ```
