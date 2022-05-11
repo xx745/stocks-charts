@@ -17,8 +17,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint './**/*.js'",
-    "lint:fix": "eslint --fix './**/*.js'"
+    "lint": "eslint './**/*.{js,vue}'",
+    "lint:fix": "eslint --fix './**/*.{js,vue}'"
   },
   "dependencies": {
     "chartist": "^0.11.4",
