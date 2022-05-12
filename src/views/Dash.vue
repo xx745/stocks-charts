@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="dash"
-    :style="`max-width: ${maxWidth}px;`">
-    <graph :max-width="maxWidth" />
+  <div class="dash">
+    <graph />
   </div>
 </template>
 
@@ -11,17 +9,13 @@ import Graph from '@/components/Graph.vue';
 
 export default {
   name: 'Dash',
-  components: { Graph },
-  computed: {
-    maxWidth() {
-      return 1200;
-    }
-  }
+  components: { Graph }
 };
 </script>
 
 <style lang="scss" scoped>
 .dash {
   margin: auto;
+  max-width: 1200px;
 }
 </style>
