@@ -26,6 +26,8 @@ module.exports = {
     'prefer-const': 'error',
     'no-return-assign': 'off',
     'space-before-function-paren': ['error', { 'asyncArrow': 'always', 'named': 'never' }],
-    'no-unused-vars': 'warn'
+    'no-unused-vars': 'warn',
+    'vue/multi-word-component-names': 'off',
+    'vue/html-closing-bracket-newline': 'off'
   }
 };
